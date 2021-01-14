@@ -6,28 +6,30 @@ The idea is to reduce the space and time complexities of different tasks.
 * Stack 
 
 A stack or LIFO (last in, first out) is an abstract data type that serves as a collection of elements, with two principal operations: push, which adds an element to the collection, and pop, which removes the last element that was added. In stack both the operations of push and pop takes place at the same end that is top of the stack. Implemented here with a linked list and utilized in a file management system. Also used in DFS search algorithm to compare with BST and Queue data structure for search times.
-Insertion : O(1) constant time complexity 
-Deletion :  O(1) constant time complexity
-Access Time : O(n) Linear time complexity 
+*Insertion : O(1) constant time complexity 
+*Deletion :  O(1) constant time complexity
+*Access Time : O(n) Linear time complexity 
 
 * Queues
 
 A queue or FIFO (first in, first out) is an abstract data type that serves as a collection of elements, with two principal operations: enqueue, the process of adding an element to the collection.(The element is added from the rear side) and dequeue, the process of removing the first element that was added. Implemented here with a linked list and utilized in a file management system. Used in A BFS search algorithm to compare search times against stack and BST data structures.
-Insertion : O(1) constant time complexity 
-Deletion :  O(1) constant time complexity
-Access Time : O(n) Linear time complexity
+*Insertion : O(1) constant time complexity 
+*Deletion :  O(1) constant time complexity
+*Access Time : O(n) Linear time complexity
 * Heaps
 
 A Binary Heap is a Binary Tree with following properties. 
 1) It’s a complete tree (All levels are completely filled except possibly the last level and the last level has all keys as left as possible). This property of Binary Heap makes them suitable to be stored in an array. 
 2) A Binary Heap is either Min Heap or Max Heap. In a Min Binary Heap, the key at root must be minimum among all keys present in Binary Heap. The same property must be recursively true for all nodes in Binary Tree. Max Binary Heap is similar to Min Heap. My Heap has both min heap and max heap versions. 
-Get Minimum in Min Heap: O(1) [Or Get Max in Max Heap]
-Extract Minimum Min Heap: O(Log n) [Or Extract Max in Max Heap]
-Decrease Key in Min Heap: O(Log n)  [Or Decrease Key in Max Heap]
-Insert: O(Log n) 
-Delete: O(Log n)
+*Get Minimum in Min Heap: O(1) [Or Get Max in Max Heap]
+*Extract Minimum Min Heap: O(Log n) [Or Extract Max in Max Heap]
+*Decrease Key in Min Heap: O(Log n)  [Or Decrease Key in Max Heap]
+*Insert: O(Log n) 
+*Delete: O(Log n)
+
 The only issue is that heaps can't search for specific things, they can only give the smallest or largest elements in the array(Useful for sorting).
-* Hashtable
+
+*Hashtable
 
 Features of Hashtable
 It is similar to HashMap, but is synchronized.
