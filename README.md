@@ -45,8 +45,8 @@ Binary Tree Representation: A tree is represented by a pointer to the topmost no
 2. Pointer to left child 
 3. Pointer to right child 
 Our binary tree has a Depth First Traversal
-Depth First Traversal: Inorder (Left-Root-Right), Preorder (Root-Left-Right) and Postorder (Left-Right-Root) 
-Time Complexity of Tree Traversal: O(n)
+Depth First Traversal: Inorder (Left-Root-Right), Preorder (Root-Left-Right) and Postorder (Left-Right-Root) Time Complexity of Tree Traversal: O(n)
+
 Binary Search Trees have the following additional properties
 1. The left subtree of a node contains only nodes with keys less than the node’s key. 
 2. The right subtree of a node contains only nodes with keys greater than the node’s key. 
