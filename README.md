@@ -43,5 +43,5 @@ Binary Search Trees have the following additional properties
 1. The left subtree of a node contains only nodes with keys less than the node’s key. 
 2. The right subtree of a node contains only nodes with keys greater than the node’s key. 
 3. The left and right subtree each must also be a binary search tree. 
-Our Bst is a self-balancing tree so the time complexity for insertion,deletion and search/access is O(log n) which means that the Bst is better at searching than a Queue or stack based algo. 
+Our Bst is a self-balancing tree so the time complexity for insertion,deletion and search/access is O(log n) which means that the Bst is better at searching than a Queue or stack based algorithm
 
